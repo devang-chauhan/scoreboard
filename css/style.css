@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: "Oxygen", "san-serif";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
