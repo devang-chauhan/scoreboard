@@ -6,9 +6,6 @@
         <title>Scoreboard</title>
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
-        <script src="js/main.js" type="module" defer></script>
         <!-- Google tag (gtag.js) -->
         <script async
         src="https://www.googletagmanager.com/gtag/js?id=G-TEY1EQR6DL"></script>
@@ -22,9 +19,39 @@
 
     <body>
         <div class="container">
-            <h1 id="title">Hit me</h1>
-            <p id="activity"></p>
-            <button id="trigger"></button>
+            <div class="player">
+                <h3>HOME</h3>
+                <div class="score-box">
+                    <p class="score">20</p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn">+1</button>
+                    <button class="btn">+2</button>
+                    <button class="btn">+3</button>
+                </div>
+            </div>
+
+            <div class="reset-container">
+                <div></div>
+                <button class="btn">
+                    <img src="images/reset.png" alt="reset score">
+                </button>
+                <div></div>
+            </div>
+            
+
+            <div class="player">
+                <h3>GUEST</h3>
+                <div class="score-box">
+                    <p class="score">20</p>
+                </div>
+                <div class="btn-container">
+                    <button class="btn">+1</button>
+                    <button class="btn">+2</button>
+                    <button class="btn">+3</button>
+                </div>
+                
+            </div>
         </div>
     </body>
 </html>
