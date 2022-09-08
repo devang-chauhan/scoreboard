@@ -55,6 +55,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background: black;
+    border-radius: 10px;
 }
 
 .score {
