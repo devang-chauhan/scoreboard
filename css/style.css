@@ -1,10 +1,84 @@
+@font-face {
+    src: url("../fonts/CursedTimerULiL.ttf");
+    font-family: "CursedTimerUlil";
+}
+
+body,
+button {
+    font-family: CursedTimerUlil, sans-serif;
+}
+
 body {
     margin: 0;
     height: 100vh;
-    font-family: "Oxygen", "san-serif";
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background: #1b244a;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+
+.reset-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reset-container button img {
+    width: 20px;
+    height: 20px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.score-box {
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.score {
+    margin: 0;
+    padding: 13px 0 0 0;
+    font-size: 90px;
+    color: #F94F6D;
+    vertical-align: bottom;
+}
+
+.btn-container {
+    margin: 26px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #9AABD8;
+    cursor: pointer;
 }
