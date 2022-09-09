@@ -22,7 +22,6 @@ body {
     width: 500px;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
 }
 
 
@@ -48,6 +47,8 @@ h3 {
     padding: 0 0 20px 0;
 }
 
+
+
 .score-box {
     width: 155px;
     height: 120px;
@@ -56,6 +57,11 @@ h3 {
     align-items: center;
     background: black;
     border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.lead {
+    border: 2px solid yellow;
 }
 
 .score {
