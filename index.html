@@ -6,6 +6,7 @@
         <title>Scoreboard</title>
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/main.js" defer></script>
         <!-- Google tag (gtag.js) -->
         <script async
         src="https://www.googletagmanager.com/gtag/js?id=G-TEY1EQR6DL"></script>
@@ -21,19 +22,19 @@
         <div class="container">
             <div class="player">
                 <h3>HOME</h3>
-                <div class="score-box">
-                    <p class="score">20</p>
+                <div id="homeScoreBox" class="score-box">
+                    <p id="homeScore" class="score">0</p>
                 </div>
                 <div class="btn-container">
-                    <button class="btn">+1</button>
-                    <button class="btn">+2</button>
-                    <button class="btn">+3</button>
+                    <button id="home_1" class="btn">+1</button>
+                    <button id="home_2" class="btn">+2</button>
+                    <button id="home_3" class="btn">+3</button>
                 </div>
             </div>
 
             <div class="reset-container">
                 <div></div>
-                <button class="btn">
+                <button id="reset" class="btn">
                     <img src="images/reset.png" alt="reset score">
                 </button>
                 <div></div>
@@ -42,13 +43,13 @@
 
             <div class="player">
                 <h3>GUEST</h3>
-                <div class="score-box">
-                    <p class="score">20</p>
+                <div id="guestScoreBox" class="score-box">
+                    <p id="guestScore" class="score">0</p>
                 </div>
                 <div class="btn-container">
-                    <button class="btn">+1</button>
-                    <button class="btn">+2</button>
-                    <button class="btn">+3</button>
+                    <button id="guest_1" class="btn">+1</button>
+                    <button id="guest_2" class="btn">+2</button>
+                    <button id="guest_3" class="btn">+3</button>
                 </div>
                 
             </div>
