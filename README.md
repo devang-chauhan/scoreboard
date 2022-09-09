@@ -1,5 +1,5 @@
 ### Scoreboard.
 
-A basketball score board simulator using vanilla JS and CSS.
+A score board simulator using vanilla JS and CSS.
 
-![App](/images/boredbotapp.png)
+![App](/images/scoreBoard.png)
